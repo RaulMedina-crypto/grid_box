@@ -1,0 +1,32 @@
+.columna{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    justify-items: center;
+    border: 5px;
+    border-color: black;
+}
+
+.tabla-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: auto;
+    margin:auto;
+    
+  }
+
+  .celda {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    justify-content:center; 
+    align-items: center;
+    background-color: blueviolet; 
+    padding: 5px; 
+  }
+
+
+  img{
+    width: 300px;
+    height: 100px;
+  }
