@@ -1,0 +1,95 @@
+#cafe{
+    margin-right: auto  ;
+}
+
+#taza{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
+#taza2{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#saludo{
+    width: 400px;
+}
+
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
+.contenedor{
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+    background-color:aqua;
+}
+
+.presentacion{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    padding: 20px;
+}
+
+.beneficio {
+    display: flex;
+}
+
+.caja{
+    width: 150px;
+    text-align: center;
+}
+
+.imagen{
+    width: 200px;
+    height: 100px;
+
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content:center;
+    width: auto;
+    gap: 60px;
+    
+    
+}
+
+.producto{
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align:left;
+    padding: 10px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color:blueviolet;
+    padding: 10px;
+}
