@@ -1,0 +1,87 @@
+.contenedor{
+    align-items: center;
+    justify-content: center ;
+    display: flex;
+    gap: 10px;
+    background-color:indigo;
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.caja{
+    padding: 5px;
+    gap: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: auto;
+    padding: 10px;
+    
+}
+
+.product-card{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    justify-content:center; 
+    align-items: center; 
+    padding: 5px; 
+    border-radius: 10px;
+}
+
+.price{
+    font-weight:600;
+}
+
+
+strong {
+    margin-right: auto; /* Empuja todo lo que esté a su derecha hacia el extremo */
+    margin-left: 10px;
+    font-size:x-large;
+}
+
+i{
+    margin: 10px;
+    height: auto;
+    width: auto;
+}
+
+section{
+    text-align: center;
+    height: 300px;
+    padding: 50px;
+    background-image: url('https://www.heropay.eu/blog-images/533783339/ouvrir-boutique-ligne-sans-stock-gratuitement-hero.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.main-footer{
+    display: flex;                 
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto;
+    background-color: indigo;
+    color: white;
+}
+
+
+
+
